@@ -4,6 +4,7 @@
 使用javaMail在android发送邮件
 #### 使用说明
 
+~~~
 private void sendMail() {
         entity = new MailEntity(
                 "smtp.sina.cn",     //服务器地址
@@ -30,6 +31,7 @@ private void sendMail() {
             }
         }.start();
     }
+~~~
 
 #### 参与贡献
 
