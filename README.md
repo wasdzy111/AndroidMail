@@ -3,7 +3,11 @@
 #### 项目介绍
 使用javaMail在android发送邮件
 #### 使用说明
-
+6.0之后请求网络权限
+~~~
+ <uses-permission android:name="android.permission.INTERNET" />
+~~~
+发送代码
 ~~~
 private void sendMail() {
         entity = new MailEntity(
